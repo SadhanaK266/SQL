@@ -1,12 +1,12 @@
 USE online_retail_sales_analysis;
----Customers table---
+-- Customers table --
 CREATE TABLE Customers(
     customer_id INT PRIMARY KEY,
     name VARCHAR(100),
     city VARCHAR(50)
 );
 
-----Products table----
+-- Products table --
 CREATE TABLE Products(
     product_id INT PRIMARY KEY,
     name VARCHAR(100),
@@ -14,7 +14,7 @@ CREATE TABLE Products(
     price DECIMAL(10, 2)
 );
 
-----Orders table----
+-- Orders table --
 CREATE TABLE Orders(
     order_id INT PRIMARY KEY,
     customer_id INT,
@@ -22,7 +22,7 @@ CREATE TABLE Orders(
     FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
 );
 
-----Order_Items Table----
+-- Order_Items Table --
 CREATE Table Order_Items(
     order_id INT,
     product_id INT,
