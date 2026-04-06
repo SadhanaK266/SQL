@@ -100,3 +100,6 @@ This project demonstrates how SQL can be used to transform raw retail data into 
 **Sadhana K**
 B.Tech Information Technology
 KPR Institute of Engineering and Technology
+
+
+
