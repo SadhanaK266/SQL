@@ -1,4 +1,5 @@
 USE online_retail_sales_analysis;
+
 -- Customers table --
 CREATE TABLE Customers(
     customer_id INT PRIMARY KEY,
